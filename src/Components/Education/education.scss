@@ -1,0 +1,50 @@
+@import '../../SCSS/variables.scss';
+
+.fa-education-section {
+  padding: 140px 0 126px 0;
+  h3 {
+    font-size: 40px;
+    font-weight: $fw-700;
+    color: $monochrome;
+    text-align: center;
+    margin: 4px 0 40px 0;
+  }
+  .fa-card-container {
+    display: flex;
+    align-items: center;
+    .fa-education-card {
+      width: 487px;
+      padding: 24px 28px 32px 29px;
+      margin-right: 24px;
+      text-align: center;
+      border-radius: 40px;
+      background: #fff;
+      box-shadow: 0px 4px 20px 0px rgba(68, 68, 68, 0.2);
+      &:last-child {
+        margin-right: 0px;
+      }
+      .card-title {
+        font-size: $fz-24;
+        font-weight: $fw-700;
+        margin: 16px 0 8px 0;
+        color: $monochrome;
+      }
+      .card-desc {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+        color: $monochrome;
+        margin-bottom: 15px;
+      }
+      a {
+        font-size: $fz-16;
+        font-weight: $fw-700;
+        text-decoration: none;
+        color: $monochrome-g3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}

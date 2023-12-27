@@ -1,0 +1,48 @@
+@import '../../SCSS/variables.scss';
+
+.f-banner-section {
+  background: linear-gradient(180deg, #f6a448 0%, $orange-label 100%);
+  //   height: 570px;
+  position: relative;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 153px 0;
+    position: relative;
+
+    color: #fff;
+    text-align: left;
+  }
+  .banner-title {
+    font-size: $fz-16;
+    font-weight: 500;
+  }
+  .banner-desc {
+    font-size: $fz-16;
+    max-width: 745px;
+    width: 100%;
+    line-height: 24px; /* 150% */
+  }
+  h3 {
+    font-size: 40px;
+    font-weight: $fw-700;
+    max-width: 790px;
+    width: 100%;
+    text-align: left;
+    margin: 16px 0;
+  }
+  img {
+    position: absolute;
+  }
+  .map {
+    right: 0;
+    top: 0;
+  }
+  .student {
+    right: 0;
+    top: -45px;
+    z-index: 2;
+  }
+}
